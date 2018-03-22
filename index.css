@@ -1,0 +1,305 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container> div{
+    /*border: solid 2px black;*/
+    width: 960px;
+    margin: 0px auto 0px auto;
+}
+
+header{
+    /*position: relative;*/
+    /*border: solid 2px black;*/
+    padding: 1em;
+    color: white;
+    background-color: #999;
+    /*clear: left;*/
+    
+   /* text-align: center;*/
+}
+
+.row{
+    margin: 0px auto 0px auto;
+}
+
+h2{
+   font-weight: bold; 
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+
+/****************** header ************************/
+
+#headercolumn {
+    padding: 0px 0px 0px 80px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .input-group {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .checkout {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .glyphicon-shopping-cart {
+    display: none;
+  }
+}
+
+.logohead {
+    margin-bottom: 10px;
+}
+
+
+/************************ MENY ***************************/
+
+nav{
+    /*border: solid 2px black;*/
+}
+
+.meny {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .glyphicon-menu-hamburger {
+    display: none;
+  }
+}
+
+
+
+
+
+.meny li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 20px 0 0;
+}
+
+a {
+    color: #000000;
+}
+
+
+li a:hover {
+   text-decoration: none;
+   color: #999;    
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    border: none;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #b4b4b4;
+    font-family: arial;
+    font-size: 10px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(240, 240, 240, 0.9);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/******************* PAGE *************************/
+
+
+/*thumbnail*/
+
+
+.thumbnail {
+   border: 1px solid #FFFFFF;
+    margin-top: 43px;
+}
+
+.preview {    
+    width:300px;
+    height:200px
+}
+ 
+.thumb {
+    width:80px;
+    margin-right:3px;
+}
+ 
+.normal {
+    border: 1px solid #000000;
+    margin-top: 15px;
+    margin-bottom:;
+}
+
+/**********/
+
+
+.imgsx{
+    padding-left: 85px;
+}
+
+.add-to-cart {
+    box-sizing: border-box;
+    display: inline;
+}
+
+.buyinfo {
+    border: solid 1px black;
+    height: 70px;
+    width: auto;
+    margin-bottom: 10px;
+    padding: 15px 0px 0px 15px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    position: static;
+    display: inline-block;
+}
+
+.ordprice {
+    font-size: 10px;
+    width: 50px;
+    position: absolute;
+}
+
+.buyitems{
+    display: inline-block;
+    margin: 0px 40px 0px 40px;   
+}
+
+
+/************** Inspiration *********/
+
+#inspimg{
+    background-image: url("bilder/paper1.jpg"); 
+    border: solid 1px #999;
+    height: 270px;
+    width: 290px;
+    margin: 12px 0px 12px 12px;
+}
+
+.trebox {
+    border: red 2px solid;
+}
+/*********************************************/
+
+
+
+/***************** footer **************************/
+
+
+
+footer{
+    padding: 1em;
+    color: white;
+    background-color: #999;
+    clear: left;
+    text-align: ;
+}
+
+.logofooter{
+    margin-bottom: 10px;
+}
+
+
+.textfooter1{
+    font-size: 10px;
+}
+
+
+.textrub{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .textrub {
+      text-align: left;
+  }
+}
+
+.a{
+   float: left;
+   font-size: 12px;
+}
+
+.b{
+    float: left;
+    font-size: 12px;
+}
+#footercol{
+    height: 150px;
+}
+
+#footersocial{
+    text-align: center;
+    height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  #footersocial {
+      text-align: left;
+  }
+}
+
+.icon{
+    margin-top: 30px;
+}
+
+
