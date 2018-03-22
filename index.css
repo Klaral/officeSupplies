@@ -4,6 +4,8 @@ body {
    font-family: Arial;
 }
 
+
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -16,19 +18,17 @@ body {
 }
 
 header{
-    /*position: relative;*/
-    /*border: solid 2px black;*/
+    margin: 0px auto 0px auto;
     padding: 1em;
     color: white;
     background-color: #999;
-    /*clear: left;*/
-    
-   /* text-align: center;*/
 }
 
 .row{
     margin: 0px auto 0px auto;
 }
+
+
 
 h2{
    font-weight: bold; 
@@ -160,41 +160,35 @@ li a:hover {
 /******************* PAGE *************************/
 
 
-/*thumbnail*/
-
+/***thumbnail***/
 
 .thumbnail {
-   border: 1px solid #FFFFFF;
-    margin-top: 43px;
+    border: 1px solid #FFFFFF;
+    height: 470px;
+    padding-top: 20px;
+}
+.thumbox{
+    width: 400px;
+    height: 450px;
+    margin-left: 15px;
 }
 
 .preview {    
-    width:200px;
-    height:150px
+    width:400px;
+    height:300px
 }
  
-.thumb {
-    width:80px;
-    margin-right:3px;
-}
- 
-.normal {
-    border: 1px solid #000000;
-    margin-top: 15px;
-    margin-bottom:;
-}
-
-/**********/
-
-
-.imgsx{
-    padding-left: 85px;
+.thumb{
+    margin-top: 20px;
+    padding-left: 15px; 
 }
 
 .add-to-cart {
-    box-sizing: border-box;
     display: inline;
 }
+
+/****************************/
+
 
 .buyinfo {
     border: solid 1px black;
@@ -223,22 +217,20 @@ li a:hover {
 }
 
 
-/************** Inspiration *********/
+/************** Inspirations boxar *********/
+
+.inspbox{
+    margin-bottom: 12px;
+    padding-left: 30px;
+}
 
 #inspimg{
-    background-image: url("bilder/paper1.jpg"); 
     border: solid 1px #999;
-    height: 270px;
+    height: 250px;
     width: 290px;
-    margin: 12px 0px 12px 12px;
+    background-image: url("bilder/paper1.jpg"); 
+    margin: 0px 5px 0px 0px;
 }
-
-.trebox {
-    border: red 2px solid;
-}
-/*********************************************/
-
-
 
 /***************** footer **************************/
 
